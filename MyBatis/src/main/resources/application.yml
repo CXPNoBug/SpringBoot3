@@ -1,0 +1,14 @@
+#\u914D\u7F6E\u6570\u636E\u6E90
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+    username: root
+    password: 123456
+
+#\u914D\u7F6Emybatis
+mybatis:
+  configuration:
+#    map-underscore-to-camel-case: true #\u652F\u6301\u9A7C\u5CF0\u547D\u540D\uFF0C\u4E0B\u5212\u7EBF\uFF08userId\u8D4B\u503Cuser_id\uFF09
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #\u65E5\u5FD7
+  mapper-locations: classpath:/mappers/**/*.xml #\u6307\u5B9A\u81EA\u5B9A\u4E49mapper\u6587\u4EF6\u7684\u4F4D\u7F6E

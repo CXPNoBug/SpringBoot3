@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JdbcTpl" />
+        <module name="MyBatis" />
+        <module name="Trans" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +19,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="JdbcTpl" options="-parameters" />
+      <module name="MyBatis" options="-parameters" />
+      <module name="Trans" options="-parameters" />
       <module name="mybatis-demo" options="-parameters" />
     </option>
   </component>

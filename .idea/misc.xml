@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/mybatis-demo/pom.xml" />
         <option value="$PROJECT_DIR$/JdbcTpl/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Trans/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
