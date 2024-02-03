@@ -11,4 +11,7 @@ public interface ArticleService {
 
     //发布新的文章
     boolean postNewArticle(ArticlePO article, String content);
+
+    //新增方法
+    boolean managerArticle(ArticlePO po,String content);
 }
